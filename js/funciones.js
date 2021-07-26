@@ -16,3 +16,35 @@ function mostrarImagen(){
    });
 
 }
+
+function cambioColores(){
+    $(document).ready(function() {  
+        $('#Pamarillo').mouseenter (function(){
+            $('#colores').css("background-color","yellow");
+         });  
+         $('#Pverde').mouseenter (function(){
+            $('#colores').css("background-color","green");
+         });      
+         $('#Projo').mouseenter (function(){
+            $('#colores').css("background-color","red");
+         });     
+         $('#Pnegro').mouseenter (function(){
+            $('#colores').css("background-color","black");
+         });
+         $('#Pblanco').mouseenter (function(){
+            $('#colores').css("background-color","white");
+         });
+
+   });
+
+}
+
+function mostrarInfoEstudiante(){
+    $(document).ready(function() {  
+        $('#datosEstudiante').dblclick (function(){
+            $('#infoEstudiante').text('Texto de sustitución');
+         }); 
+
+   });
+
+}
